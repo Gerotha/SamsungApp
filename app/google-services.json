@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "432747052618",
+    "firebase_url": "https://samsungapp-c799b.firebaseio.com",
+    "project_id": "samsungapp-c799b",
+    "storage_bucket": "samsungapp-c799b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432747052618:android:1671a30b2e9503ec",
+        "android_client_info": {
+          "package_name": "com.insightvalley.samsungapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432747052618-3bgouhgoqi8efq4raeku875ufshbijc1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insightvalley.samsungapp",
+            "certificate_hash": "d3968a0c9fe622867bae2dc937d3ed973ef64bf7"
+          }
+        },
+        {
+          "client_id": "432747052618-pf4sugr0k15tnior1l6u600rhemg35ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRaQmfobgeVVhVf3IaZNyVkzg1HBlArSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432747052618-pf4sugr0k15tnior1l6u600rhemg35ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
