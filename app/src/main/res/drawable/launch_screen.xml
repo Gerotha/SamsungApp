@@ -4,7 +4,7 @@
     <item android:drawable="@drawable/gradient" />
 
     <item>
-        <bitmap android:src="@drawable/splash_logo"
+        <bitmap android:src="@drawable/neuron"
             android:gravity="center" />
     </item>
 
