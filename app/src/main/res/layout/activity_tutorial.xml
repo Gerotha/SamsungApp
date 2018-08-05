@@ -10,7 +10,8 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
-        android:layout_height="551dp">
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dotsLayout">
 
     </android.support.v4.view.ViewPager>
 
@@ -19,8 +20,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="true"
         android:orientation="horizontal"
-        android:padding="20dp"></LinearLayout>
+        android:layout_marginBottom="10dp"></LinearLayout>
 
 </RelativeLayout>
