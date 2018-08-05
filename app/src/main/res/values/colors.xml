@@ -5,5 +5,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="splashStart">#00b48a</color>
     <color name="splashEnd">#6dd4bb</color>
-    <color name="backgroundMain">#FFF</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="dotDisable">#d2d2d2</color>
+    <color name="dotEnable">#2e2e2e</color>
+
 </resources>
