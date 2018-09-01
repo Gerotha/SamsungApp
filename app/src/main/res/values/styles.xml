@@ -22,4 +22,10 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <style name="HomeTheme" parent="AppTheme">
+        <!-- TODO criar tema da tela de login -->
+        <item name="android:windowBackground">@color/dotDisable</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
 </resources>

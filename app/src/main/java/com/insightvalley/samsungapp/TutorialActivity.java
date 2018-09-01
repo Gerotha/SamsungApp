@@ -66,7 +66,7 @@ public class TutorialActivity extends AppCompatActivity {
 
             mDots[i] = new TextView(this);
             mDots[i].setText(Html.fromHtml("&#9898") + " ");
-            mDots[i].setTextSize(15);
+            mDots[i].setTextSize(17);
             mDots[i].setTextColor(getResources().getColor(R.color.dotEnable));
 
             mDotsLayout.addView(mDots[i]);
@@ -74,7 +74,7 @@ public class TutorialActivity extends AppCompatActivity {
 
         if(mDots.length > 0) {
             mDots[position].setText(Html.fromHtml("&#9899") + " ");
-            mDots[position].setTextSize(15);
+            mDots[position].setTextSize(17);
             mDots[position].setTextColor(getResources().getColor(R.color.dotEnable));
         }
     }
