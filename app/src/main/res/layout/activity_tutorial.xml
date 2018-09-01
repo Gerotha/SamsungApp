@@ -4,36 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
+    android:id="@+id/slide_background"
+    android:background="@color/tutor1"
     tools:context=".TutorialActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/dotsLayout">
-
-    </android.support.v4.view.ViewPager>
+        android:layout_height="541dp"
+        android:layout_above="@+id/slide_button"></android.support.v4.view.ViewPager>
 
     <LinearLayout
         android:id="@+id/dotsLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
         android:orientation="horizontal"></LinearLayout>
 
     <Button
         android:id="@+id/slide_button"
-        android:layout_width="wrap_content"
+        android:layout_width="231dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_margin="16dp"
-        android:background="@color/colorAccent"
-        android:enabled="false"
-        android:text="Button"
-        android:visibility="invisible" />
+        android:layout_marginBottom="35dp"
+        android:background="@color/azulBotao"
+        android:text="Começar!" />
 
 </RelativeLayout>

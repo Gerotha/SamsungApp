@@ -20,7 +20,7 @@ public class SliderAdapter extends PagerAdapter{
     }
 
     public int[] slide_icons = {
-            R.drawable.tutor_first,
+            R.drawable.tutor1,
             R.drawable.tutor2,
             R.drawable.tutor3,
             R.drawable.tutor4

@@ -1,17 +1,24 @@
 <resources>
 
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="android:windowBackground">@color/colorWhite</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/dotEnable</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <!-- TODO criar tema base do app -->
+        <item name="colorPrimary">@color/colorSecondary</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
     </style>
 
     <style name="SplashTheme" parent="AppTheme">
         <!-- Splash screen theme -->
         <item name="android:windowBackground">@drawable/launch_screen</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TutorialTheme" parent="AppTheme" >
+        <!-- TODO criar tema do tutorial com animações e tal -->
+    </style>
+
+    <style name="LoginTheme" parent="AppTheme">
+        <!-- TODO criar tema da tela de login -->
+        <item name="android:windowBackground">@color/colorWhite</item>
         <item name="android:windowFullscreen">true</item>
     </style>
 

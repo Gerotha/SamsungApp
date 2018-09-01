@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#ff4081</color>
-    <color name="splashStart">#00b48a</color>
-    <color name="splashEnd">#6dd4bb</color>
+    <color name="colorPrimary">#8E01FF</color>
+    <color name="colorSecondary">#00FFFF</color>
+    <color name ="mainBlue">#20C5FF</color>
+    <color name ="mainGrey">#9E9E9E</color>
     <color name="colorWhite">#FFF</color>
-    <color name="dotDisable">#d2d2d2</color>
-    <color name="dotEnable">#2e2e2e</color>
+    <color name="dotDisable">#DDDDDD</color>
+    <color name="dotEnable">#FFF</color>
+    <color name="azulBotao">#408CFF</color>
+    <color name="tutor1">#20C5FF</color>
+    <color name="tutor2">#35A1FF</color>
+    <color name="tutor3">#5862FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="buttonLogin">#408CFF</color>
 
 </resources>
