@@ -61,8 +61,11 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
+                            <entry key="height" value="30" />
                             <entry key="outputName" value="ic_user" />
+                            <entry key="overrideSize" value="true" />
                             <entry key="sourceFile" value="C:\Users\Paulo\Desktop\neuron\user.svg" />
+                            <entry key="width" value="30" />
                           </map>
                         </option>
                       </PersistentState>

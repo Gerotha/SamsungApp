@@ -1,29 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/nav_user"
         android:icon="@drawable/ic_user"
-        android:title="" />
+        android:title=""
+        android:enabled="true"
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/nav_tasks"
         android:icon="@drawable/ic_tasks"
-        android:title="" />
+        android:title=""
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/nav_modal"
         android:icon="@drawable/ic_modal"
-        android:title="" />
+        android:title=""
+        android:enabled="true"
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/nav_dashboard"
         android:icon="@drawable/ic_dashboard"
-        android:title="" />
+        android:title=""
+        android:enabled="true"
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/nav_habits"
         android:icon="@drawable/ic_habits"
-        android:title="" />
+        android:title=""
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
 
 </menu>

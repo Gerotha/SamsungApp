@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/buttonModal" />
+                    <corners android:radius="10dp" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/ic_modal" android:height="15dp" android:width="15dp" android:top="8dp" android:bottom="8dp" android:left="8dp" android:right="8dp" android:gravity="center">
+            </item>
+        </layer-list>
+    </item>
+</selector>

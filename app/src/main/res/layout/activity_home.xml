@@ -6,18 +6,43 @@
     android:layout_height="match_parent"
     tools:context="com.insightvalley.samsungapp.HomeActivity">
 
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/bottom_navigation"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/bottomnavigeras"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/botao_modal"
+        android:layout_marginTop="6dp" />
+
+    <LinearLayout
+        android:id="@+id/bottomnavigeras"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignBottom="@id/fragment_container"
+        android:orientation="horizontal">
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_alignParentBottom="true"
-        android:background="@color/azulBotao"
-        app:menu="@menu/bottom_navigation" />
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:paddingTop="11dp"
+        app:itemIconTint="@drawable/bottom_nav_color"
+        app:menu="@menu/bottom_navigation" >
+    </android.support.design.widget.BottomNavigationView>
+
+
+    </LinearLayout>
 
 </RelativeLayout>

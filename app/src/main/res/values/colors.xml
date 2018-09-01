@@ -13,5 +13,6 @@
     <color name="tutor3">#5862FF</color>
     <color name="transparent">#33ffffff</color>
     <color name="buttonLogin">#408CFF</color>
+    <color name="buttonModal">#20C5FF</color>
 
 </resources>
