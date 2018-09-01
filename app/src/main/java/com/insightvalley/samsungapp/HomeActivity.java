@@ -9,7 +9,6 @@ import android.view.MenuItem;
 
 public class HomeActivity extends AppCompatActivity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +16,8 @@ public class HomeActivity extends AppCompatActivity {
 
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
+        BottomNavigationViewHelper.disableShiftMode(bottomNav);
+
 
         //I added this if statement to keep the selected fragment when rotating the device
         if (savedInstanceState == null) {
