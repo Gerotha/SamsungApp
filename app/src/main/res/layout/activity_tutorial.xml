@@ -30,7 +30,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="35dp"
-        android:background="@color/azulBotao"
+        android:background="@color/blueText"
         android:text="Começar!" />
 
 </RelativeLayout>

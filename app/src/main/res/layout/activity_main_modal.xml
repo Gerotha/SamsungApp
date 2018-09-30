@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_form_container"
+    android:orientation="vertical"
+    tools:context=".MainModal">
+
+
+
+    <EditText
+        android:id="@+id/editTxtTaskDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:hint="Que dia você pretende fazer?"
+        android:textColor="@color/blueText"
+        android:textColorHint="@color/blueText" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <EditText
+        android:id="@+id/editTxtTaskHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:hint="Digite o horario"
+        android:textColor="@color/blueText"
+        android:textColorHint="@color/blueText" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <EditText
+        android:id="@+id/editTxtTaskTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:hint="Qual é a sua tarefa"
+        android:textColor="@color/blueText"
+        android:textColorHint="@color/blueText" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <EditText
+        android:id="@+id/editTxtTaskDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:hint="De uma descrição para sua tarefa"
+        android:textColor="@color/blueText"
+        android:textColorHint="@color/blueText"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/login_form_container"
+        android:backgroundTint="@color/blueText"
+        android:elevation="15dp"
+        android:text="Criar task"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>

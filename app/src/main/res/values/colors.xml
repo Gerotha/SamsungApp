@@ -5,9 +5,10 @@
     <color name ="mainBlue">#20C5FF</color>
     <color name ="mainGrey">#9E9E9E</color>
     <color name="colorWhite">#FFF</color>
+    <color name="lightWhite">#F6F6F6</color>
     <color name="dotDisable">#DDDDDD</color>
     <color name="dotEnable">#FFF</color>
-    <color name="azulBotao">#408cff</color>
+    <color name="blueText">#408cff</color>
     <color name="tutor1">#20C5FF</color>
     <color name="tutor2">#35A1FF</color>
     <color name="tutor3">#5862FF</color>

@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "432747052618-f54l3j0nm2fnh15da8i5hprute6a3elj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insightvalley.samsungapp",
+            "certificate_hash": "e72c57ae1b9d284bfc3a3511cf348af8edaeaa8e"
+          }
+        },
+        {
           "client_id": "432747052618-pf4sugr0k15tnior1l6u600rhemg35ke.apps.googleusercontent.com",
           "client_type": 3
         }

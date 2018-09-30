@@ -28,4 +28,15 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <style name="titleStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/blueText</item>
+    </style>
+
+    <!--Input field style-->
+    <style name="inputStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/blueText</item>
+        <item name="colorControlActivated">@color/blueText</item>
+    </style>
+
+
 </resources>
